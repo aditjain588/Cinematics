@@ -1,0 +1,24 @@
+{
+  "name": "frontend",
+  "proxy": "http://backend:5000",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.3",
+    "@mui/material": "^7.3.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.3"
+  },
+"scripts": {
+  "dev": "vite --host --port 5173",
+  "build": "vite build",
+  "preview": "vite preview"
+},
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "vite": "^7.1.8"
+  }
+}
